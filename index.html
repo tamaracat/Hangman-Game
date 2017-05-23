@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+
+	
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+<body>
+<header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Rock Band Hangman Game</a>
+    </div>
+  </header>
+  
+   <h1>Welcome to the Rock Band Themed Hangman Game</h1>
+
+    <div id="buttons"></div>  
+   
+    <p id="mylives"></p>
+     <canvas id="stickman"></canvas>
+      <div class="container">
+      <button id="letter_a" class = "button" value = "A" onclick="applyLetter(value)"></button>
+      <button id="letter_b" class = "button" value = "B" onclick="applyLetter(value)"></button>
+      <button id="letter_c" class = "button" value = "C" onclick="applyLetter(value)"></button>
+      <button id="letter_d" class = "button" value = "D" onclick="applyLetter(value)"></button>
+      <button id="letter_e" class = "button" value = "E" onclick="applyLetter(value)"></button>
+      <button id="letter_f" class = "button" value = "F" onclick="applyLetter(value)"></button>
+      <button id="letter_g" class = "button" value = "G" onclick="applyLetter(value)"></button>
+      <button id="letter_h" class = "button" value = "H" onclick="applyLetter(value)"></button>
+      <button id="letter_i" class = "button" value = "I" onclick="applyLetter(value)"></button>
+      <button id="letter_j" class = "button" value = "J" onclick="applyLetter(value)"></button>
+      <button id="letter_k" class = "button" value = "K" onclick="applyLetter(value)"></button>
+      <button id="letter_l" class = "button" value = "L" onclick="applyLetter(value)"></button>
+      <button id="letter_m" class = "button" value = "M" onclick="applyLetter(value)"></button>
+      <button id="letter_n" class = "button" value = "N" onclick="applyLetter(value)"></button>
+      <button id="letter_o" class = "button" value = "O" onclick="applyLetter(value)"></button>
+      <button id="letter_p" class = "button" value = "P" onclick="applyLetter(value)"></button>
+      <button id="letter_q" class = "button" value = "Q" onclick="applyLetter(value)"></button>
+      <button id="letter_r" class = "button" value = "R" onclick="applyLetter(value)"></button>
+      <button id="letter_s" class = "button" value = "S" onclick="applyLetter(value)"></button>
+      <button id="letter_t" class = "button" value = "T" onclick="applyLetter(value)"></button>
+      <button id="letter_u" class = "button" value = "U" onclick="applyLetter(value)"></button>
+      <button id="letter_v" class = "button" value = "V" onclick="applyLetter(value)"></button>
+      <button id="letter_w" class = "button" value = "W" onclick="applyLetter(value)"></button>
+      <button id="letter_x" class = "button" value = "X" onclick="applyLetter(value)"></button>
+      <button id="letter_y" class = "button" value = "Y" onclick="applyLetter(value)"></button>
+      <button id="letter_z" class = "button" value = "Z" onclick="applyLetter(value)"></button>
+      <br><br>
+      <button id="reset" class = "button" onclick="reset_values()">Reset</button>
+      <!-- <button id="reset" class = "button" onclick="reset()">Play again</button> -->
+      <br><br>
+     
+    
+
+    <div id="band" value = "Choose a Band"></div>
+    <br>
+    <div id="fill_in_the_blanks"></div> 
+    <!-- Class Container closing DIV -->
+
+    <div id="Youre_Dead" class = "Dead"></div> 
+
+    <img id="hangman_image" src="assets/images/hangman_lg.png">
+    </div>  
+
+</body>
+<!-- Javascript file -->
+<script src="assets/javascript/game.js"></script>
+</html>
