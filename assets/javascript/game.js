@@ -19,10 +19,6 @@
      
 }
 
-
-
-
-
 function applyLetter(letter_click) {
 	//increment counter. Game over when it reaches six.
 	
@@ -114,8 +110,8 @@ function UnderlineBand() {
 function UpdateDocument(){
 
 	
-	var element = document.getElementById("band");
-	element.innerHTML = Chosen_Band;
+	// var element = document.getElementById("band");
+	// element.innerHTML = Chosen_Band;
 	
 	
 	var element = document.getElementById("fill_in_the_blanks");
